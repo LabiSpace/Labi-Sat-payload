@@ -7,7 +7,7 @@ schematic includes two RP2040 MCU boards and the `PQ_bus` interface.
 
 - GP18 is available for use, but is also internally connected to an LED.
 - Unassigned GPIOs can be used for any function.
-- If the 1-Wire interface is used, do not connect anything else to GPIO0 / GPIO4.
+- If the HDUART interface is used, do not connect anything else to GPIO0 / GPIO4.
 - Net names may be changed as needed, but **do not connect**
   `REG_BUS_PROTECTED_1` and `REG_BUS_PROTECTED_2` together.
 
@@ -18,12 +18,12 @@ schematic includes two RP2040 MCU boards and the `PQ_bus` interface.
 | Pin | Signal              | Pin | Signal              |
 |-----|---------------------|-----|---------------------|
 | 1   | GND                 | 2   | DNC                 |
-| 3   | DNC                 | 4   | 1W_2                |
+| 3   | DNC                 | 4   | HDUART_2            |
 | 5   | DNC                 | 6   | CAN2_H              |
 | 7   | REG_BUS_PROTECTED_1 | 8   | CAN2_L              |
 | 9   | CAN1_L              | 10  | REG_BUS_PROTECTED_2 |
 | 11  | CAN1_H              | 12  | DNC                 |
-| 13  | 1W_1                | 14  | DNC                 |
+| 13  | HDUART_1            | 14  | DNC                 |
 | 15  | DNC                 | 16  | GND                 |
 
 Pins marked DNC (do not connect) are reserved for future use and must be left

@@ -96,7 +96,7 @@
 			(pin bidirectional line
 				(at -20.32 16.51 0)
 				(length 2.54)
-				(name "GPIO00_(1W2TX)"
+				(name "GPIO00_(HDUART2TX)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -114,7 +114,7 @@
 			(pin bidirectional line
 				(at -20.32 13.97 0)
 				(length 2.54)
-				(name "GPIO01/1W2"
+				(name "GPIO01/HDUART2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -168,7 +168,7 @@
 			(pin bidirectional line
 				(at -20.32 6.35 0)
 				(length 2.54)
-				(name "GPIO04_(1W1TX)"
+				(name "GPIO04_(HDUART1TX)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			(pin bidirectional line
 				(at -20.32 3.81 0)
 				(length 2.54)
-				(name "GPIO05/1W1"
+				(name "GPIO05/HDUART1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -984,7 +984,7 @@
 			(pin bidirectional line
 				(at 7.62 5.08 180)
 				(length 3.81)
-				(name "1W_2"
+				(name "HDUART_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 			(pin bidirectional line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "1W_1"
+				(name "HDUART_1"
 					(effects
 						(font
 							(size 1.27 1.27)

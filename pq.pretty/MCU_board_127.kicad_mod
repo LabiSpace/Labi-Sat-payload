@@ -79,7 +79,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "GPIO00_(1W2TX)"
+	(fp_text user "GPIO00_(HDUART2TX)"
 		(at -5.975 -8.18 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -92,7 +92,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "GPIO01/1W2"
+	(fp_text user "GPIO01/HDUART2"
 		(at -5.975 -6.91 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -131,7 +131,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "GPIO04_(1W1TX)"
+	(fp_text user "GPIO04_(HDUART1TX)"
 		(at -5.975 -3.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -144,7 +144,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "GPIO05/1W1"
+	(fp_text user "GPIO05/HDUART1"
 		(at -5.975 -1.83 0)
 		(unlocked yes)
 		(layer "F.Fab")
