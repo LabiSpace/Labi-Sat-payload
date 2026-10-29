@@ -409,7 +409,7 @@
 				)
 			)
 			(property "Value" "RP2040 MCU board"
-				(at 0 0 0)
+				(at 0.254 -13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -419,7 +419,7 @@
 				)
 			)
 			(property "Footprint" "pq:MCU_board_127"
-				(at 0 0 0)
+				(at 0.254 -15.494 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -453,8 +453,8 @@
 			)
 			(symbol "MCU_1_0_1"
 				(rectangle
-					(start -17.78 21.59)
-					(end 16.51 -21.59)
+					(start -19.05 21.59)
+					(end 19.05 -21.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -466,7 +466,7 @@
 			)
 			(symbol "MCU_1_1_1"
 				(pin power_in line
-					(at -20.32 19.05 0)
+					(at -21.59 19.05 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -484,7 +484,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 16.51 0)
+					(at -21.59 16.51 0)
 					(length 2.54)
 					(name "GPIO00_(HDUART2TX)"
 						(effects
@@ -502,7 +502,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 13.97 0)
+					(at -21.59 13.97 0)
 					(length 2.54)
 					(name "GPIO01/HDUART2"
 						(effects
@@ -520,7 +520,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 11.43 0)
+					(at -21.59 11.43 0)
 					(length 2.54)
 					(name "GPIO02"
 						(effects
@@ -538,7 +538,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 8.89 0)
+					(at -21.59 8.89 0)
 					(length 2.54)
 					(name "GPIO03"
 						(effects
@@ -556,7 +556,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 6.35 0)
+					(at -21.59 6.35 0)
 					(length 2.54)
 					(name "GPIO04_(HDUART1TX)"
 						(effects
@@ -574,7 +574,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 3.81 0)
+					(at -21.59 3.81 0)
 					(length 2.54)
 					(name "GPIO05/HDUART1"
 						(effects
@@ -592,7 +592,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 1.27 0)
+					(at -21.59 1.27 0)
 					(length 2.54)
 					(name "GPIO06"
 						(effects
@@ -610,7 +610,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -1.27 0)
+					(at -21.59 -1.27 0)
 					(length 2.54)
 					(name "GPIO07"
 						(effects
@@ -628,7 +628,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -3.81 0)
+					(at -21.59 -3.81 0)
 					(length 2.54)
 					(name "GPIO08"
 						(effects
@@ -646,7 +646,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -6.35 0)
+					(at -21.59 -6.35 0)
 					(length 2.54)
 					(name "GPIO09"
 						(effects
@@ -664,7 +664,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -8.89 0)
+					(at -21.59 -8.89 0)
 					(length 2.54)
 					(name "GPIO10"
 						(effects
@@ -682,7 +682,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -11.43 0)
+					(at -21.59 -11.43 0)
 					(length 2.54)
 					(name "GPIO11"
 						(effects
@@ -700,7 +700,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -13.97 0)
+					(at -21.59 -13.97 0)
 					(length 2.54)
 					(name "GPIO12"
 						(effects
@@ -718,7 +718,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -16.51 0)
+					(at -21.59 -16.51 0)
 					(length 2.54)
 					(name "GPIO13"
 						(effects
@@ -736,7 +736,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -19.05 0)
+					(at -21.59 -19.05 0)
 					(length 2.54)
 					(name "GPIO14"
 						(effects
@@ -754,7 +754,7 @@
 					)
 				)
 				(pin power_in line
-					(at 19.05 -19.05 180)
+					(at 21.59 -19.05 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -772,7 +772,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -16.51 180)
+					(at 21.59 -16.51 180)
 					(length 2.54)
 					(name "GPIO15"
 						(effects
@@ -790,7 +790,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -13.97 180)
+					(at 21.59 -13.97 180)
 					(length 2.54)
 					(name "GPIO16"
 						(effects
@@ -808,7 +808,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -11.43 180)
+					(at 21.59 -11.43 180)
 					(length 2.54)
 					(name "GPIO17"
 						(effects
@@ -826,7 +826,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -8.89 180)
+					(at 21.59 -8.89 180)
 					(length 2.54)
 					(name "GPIO18/LED"
 						(effects
@@ -844,7 +844,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -6.35 180)
+					(at 21.59 -6.35 180)
 					(length 2.54)
 					(name "GPIO20/CAN1H"
 						(effects
@@ -862,7 +862,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -3.81 180)
+					(at 21.59 -3.81 180)
 					(length 2.54)
 					(name "GPIO21/CAN1L"
 						(effects
@@ -880,7 +880,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -1.27 180)
+					(at 21.59 -1.27 180)
 					(length 2.54)
 					(name "GPIO22"
 						(effects
@@ -898,7 +898,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 1.27 180)
+					(at 21.59 1.27 180)
 					(length 2.54)
 					(name "GPIO23"
 						(effects
@@ -916,7 +916,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 3.81 180)
+					(at 21.59 3.81 180)
 					(length 2.54)
 					(name "GPIO24/CAN2H"
 						(effects
@@ -934,7 +934,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 6.35 180)
+					(at 21.59 6.35 180)
 					(length 2.54)
 					(name "GPIO25/CAN2L"
 						(effects
@@ -952,7 +952,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 8.89 180)
+					(at 21.59 8.89 180)
 					(length 2.54)
 					(name "GPIO26/ADC0"
 						(effects
@@ -970,7 +970,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 11.43 180)
+					(at 21.59 11.43 180)
 					(length 2.54)
 					(name "GPIO27/ADC1"
 						(effects
@@ -988,7 +988,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 13.97 180)
+					(at 21.59 13.97 180)
 					(length 2.54)
 					(name "GPIO28/ADC2"
 						(effects
@@ -1006,7 +1006,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 16.51 180)
+					(at 21.59 16.51 180)
 					(length 2.54)
 					(name "GPIO29/ADC3"
 						(effects
@@ -1024,7 +1024,7 @@
 					)
 				)
 				(pin power_in line
-					(at 19.05 19.05 180)
+					(at 21.59 19.05 180)
 					(length 2.54)
 					(name "+3V3"
 						(effects
@@ -1644,7 +1644,7 @@
 	)
 	(text "If HDUART_2 is used DO NOT CONNECT anything to GPIO0 ->"
 		(exclude_from_sim no)
-		(at 105.156 111.506 0)
+		(at 99.06 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,7 +1655,7 @@
 	)
 	(text "If HDUART_1 is used DO NOT CONNECT anything to GPIO4 ->"
 		(exclude_from_sim no)
-		(at 105.41 49.276 0)
+		(at 98.806 49.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 		(uuid "a40704a3-e30f-4e14-bc86-26c8102ffc38")
 	)
 	(no_connect
-		(at 162.56 48.26)
+		(at 161.29 48.26)
 		(uuid "0d616a8e-d6dc-44a9-a16c-da2a4989f492")
 	)
 	(no_connect
@@ -1700,7 +1700,7 @@
 		(uuid "7e141d0e-6346-44b7-8a22-312f214279bf")
 	)
 	(no_connect
-		(at 162.56 110.49)
+		(at 161.29 110.49)
 		(uuid "86ee1f9d-6ac6-403f-9465-309b1aca6908")
 	)
 	(no_connect
@@ -1729,7 +1729,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 201.93 60.96 0)
+		(at 204.47 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1739,7 +1739,7 @@
 		)
 		(uuid "0c3c137a-49c5-41d7-b1c0-f65d97714fa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4577 60.96 0)
+			(at 213.9977 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +1753,7 @@
 	)
 	(global_label "CAN2_H"
 		(shape input)
-		(at 201.93 123.19 0)
+		(at 204.47 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1763,7 +1763,7 @@
 		)
 		(uuid "16873ea6-04a0-4029-8084-4f41a98ca6ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4577 123.19 0)
+			(at 213.9977 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,7 +1873,7 @@
 	)
 	(global_label "REG_BUS_PROTECTED_1"
 		(shape input)
-		(at 201.93 35.56 0)
+		(at 204.47 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1883,7 +1883,7 @@
 		)
 		(uuid "5f7fab3a-493e-4cc9-90ed-4e72ab7d4aa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.516 35.56 0)
+			(at 229.056 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2017,7 +2017,7 @@
 	)
 	(global_label "REG_BUS_PROTECTED_2"
 		(shape input)
-		(at 201.93 107.95 0)
+		(at 204.47 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2027,7 +2027,7 @@
 		)
 		(uuid "b681b713-226a-48b8-9e2f-8a301a9a0643")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.516 107.95 0)
+			(at 229.056 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2041,7 +2041,7 @@
 	)
 	(global_label "HDUART_2"
 		(shape input)
-		(at 162.56 113.03 180)
+		(at 161.29 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2051,7 +2051,7 @@
 		)
 		(uuid "c66dabfe-e475-424d-9e4a-6c3dcfc18167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.391 113.03 0)
+			(at 154.121 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2065,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 201.93 58.42 0)
+		(at 204.47 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2075,7 +2075,7 @@
 		)
 		(uuid "ccbcb768-bb87-4493-b717-003ebb279b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.1553 58.42 0)
+			(at 213.6953 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2113,7 +2113,7 @@
 	)
 	(global_label "CAN2_L"
 		(shape input)
-		(at 201.93 120.65 0)
+		(at 204.47 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2123,7 +2123,7 @@
 		)
 		(uuid "ecb0f95e-e110-4df1-8433-b8c2d31c9e4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.1553 120.65 0)
+			(at 213.6953 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2137,7 +2137,7 @@
 	)
 	(global_label "HDUART_1"
 		(shape input)
-		(at 162.56 50.8 180)
+		(at 161.29 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2147,7 +2147,7 @@
 		)
 		(uuid "fb6213f6-e5f9-462d-b005-1c57620a452f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.391 50.8 0)
+			(at 154.121 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 107.95 270)
+		(at 161.29 107.95 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2172,7 +2172,7 @@
 		(dnp no)
 		(uuid "221ccda6-66fe-49c6-b2c2-ef476d186a20")
 		(property "Reference" "#PWR08"
-			(at 156.21 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 107.95 90)
+			(at 157.48 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2194,7 +2194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 107.95 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 107.95 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 107.95 0)
+			(at 161.29 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2488,7 +2488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 73.66 90)
+		(at 204.47 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2499,7 +2499,7 @@
 		(fields_autoplaced yes)
 		(uuid "58934c77-1020-47eb-85e3-13bf2bf8b0e1")
 		(property "Reference" "#PWR09"
-			(at 208.28 73.66 0)
+			(at 210.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,7 +2510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 73.66 90)
+			(at 208.28 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 73.66 0)
+			(at 204.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2532,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 73.66 0)
+			(at 204.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 73.66 0)
+			(at 204.47 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2766,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 35.56 270)
+		(at 161.29 35.56 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2777,7 +2777,7 @@
 		(dnp no)
 		(uuid "918f182b-24b3-4afe-ada3-3674d9345d7c")
 		(property "Reference" "#PWR07"
-			(at 156.21 35.56 0)
+			(at 154.94 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 35.56 90)
+			(at 157.48 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2799,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 35.56 0)
+			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 35.56 0)
+			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,7 +2821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 35.56 0)
+			(at 161.29 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3014,7 +3014,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 146.05 90)
+		(at 204.47 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3025,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6abbe45-b4f0-465d-9d46-8271d4c2cf46")
 		(property "Reference" "#PWR010"
-			(at 208.28 146.05 0)
+			(at 210.82 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,7 +3036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 146.05 90)
+			(at 208.28 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3047,7 +3047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 146.05 0)
+			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3058,7 +3058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 146.05 0)
+			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3069,7 +3069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 146.05 0)
+			(at 204.47 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
